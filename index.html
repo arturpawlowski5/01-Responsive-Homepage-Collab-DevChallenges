@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1,  maximum-scale=5" />
+		<title>Collab. | Coded by Artur Pawlowski</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="icon" href="img/devchallenges.png" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="mobile" id="mobile-navigation">
+			<div class="mobile-navigation-header">
+				<img class="mobile-img" src="img/Collab..png" alt="" class="logo" />
+
+				<div class="mobile-menu" onclick="toggleMobileNavigation()">
+					<button class="mobile-button-close"><i class="fa fa-close"></i></button>
+				</div>
+			</div>
+			<nav class="navigation-mobile">
+				<a href="#" class="mobile-navigation__item mobile-navigation__item--active">Home</a>
+				<a href="#" class="mobile-navigation__item">About</a>
+				<a href="#" class="mobile-navigation__item">Services</a>
+				<a href="#" class="mobile-navigation__item">Contact</a>
+			</nav>
+		</div>
+
+		<div id="container">
+			<header>
+				<img src="img/Collab..png" alt="" class="logo" />
+				<nav class="navigation">
+					<a href="" class="navigation__item navigation__item--active">Home</a>
+					<a href="" class="navigation__item">About</a>
+					<a href="" class="navigation__item">Services</a>
+					<a href="" class="navigation__item">Contact</a>
+				</nav>
+
+				<button class="navigation__button">Get Starded</button>
+				<div class="navigation__menu-mobile" onclick="toggleMobileNavigation()">
+					<button class="navigation__menu-mobile-button"><i class="fa fa-reorder"></i></button>
+				</div>
+			</header>
+			<main class="main">
+				<div class="main__content">
+					<h1 class="main__headline">Collaborate Like <br />Never Before</h1>
+					<p class="main__description">Proin consequat eros in dolor rhoncus, in pellentesque justo feugiat. Nunc nec porttitor sapien, vel congue diam.</p>
+					<button class="main__button"><i class="fa fa-play-circle"></i>Discover Video</button>
+				</div>
+				<div class="main__img">
+					<img src="img/data-x1.png" alt="" />
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="footer__socials">
+					<a href="https://www.instagram.com" target="_blank" class="footer__socials--item"><i class="fa fa-instagram"></i></a>
+					<a href="https://www.twitter.com" target="_blank" class="footer__socials--item"><i class="fa fa-twitter"></i></a>
+					<a href="https://www.youtube.com" target="_blank" class="footer__socials--item"><i class="fa fa-youtube-play"></i></a>
+				</div>
+				<div class="footer-name">
+					<span class="footer__text">Challenge by <a href="https://devchallenges.io/" class="footer__link" target="_blank">devchallenges.io</a> |</span>
+					<span class="footer__text"> | Coded by<a href="https://github.com/arturpawlowski5" class="footer__link" target="_blank"> Artur Pawlowski</a></span>
+				</div>
+			</footer>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>
